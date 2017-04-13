@@ -1,0 +1,4 @@
+{
+  runningcontainers: ["§§INSTANCE-youtrack"],
+  supportcontainers: ["§§INSTANCE-youtrack-data"]
+}

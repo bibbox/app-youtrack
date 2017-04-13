@@ -1,0 +1,27 @@
+version: '2'
+
+networks:
+    bibbox-default-network:
+      external: true
+
+services:
+  §§INSTANCE-youtrack:
+    image: uniplug/youtrack
+    container_name:  §§INSTANCE-youtrack
+    restart: unless-stopped
+    networks:
+      - bibbox-default-network
+    ports:
+      - "§§PORT:80"
+    depends_on:
+      - §§INSTANCE-youtrack-data
+    volumes_from: 
+      - §§INSTANCE-youtrack-data
+
+  §§INSTANCE-youtrack-data:
+    image: busybox
+    container_name: §§INSTANCE-youtrack-data
+    volumes:
+      - ./mounted/data:/opt/youtrack/data
+      - ./mounted/backup:/opt/youtrack/backup
+
