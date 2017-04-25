@@ -1,10 +1,11 @@
 {
 		"name": "YouTrack",
 		"short_name": "YouTrack",
-		"version": "v1.0.0",
-		"description": "Powerful issue tracker and project management tool by JetBrains.",
+		"version": "v2017.2.32529",
+		"description": "Powerful issue tracker and project management tool by JetBrains. Free to use for up to 10 peaople.",
 		"short_description": "Project management system and issue tracker",
 		"catalogue_url": "",
 		"application_url": "https://www.jetbrains.com/youtrack/",
-		"tags": ["Project Management", "Issue Tracking"]
+		"tags": ["Project Management", "Issue Tracking"],
+		"application_documentation_url", "https://www.jetbrains.com/youtrack/documentation/"
 }
