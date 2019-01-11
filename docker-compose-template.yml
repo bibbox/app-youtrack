@@ -6,7 +6,7 @@ networks:
 
 services:
   §§INSTANCE-youtrack:
-    image: uniplug/youtrack
+    image: jetbrains/youtrack:latest
     container_name:  §§INSTANCE-youtrack
     restart: unless-stopped
     networks:
