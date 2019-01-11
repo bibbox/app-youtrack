@@ -12,7 +12,7 @@ services:
     networks:
       - bibbox-default-network
     ports:
-      - "§§PORT:80"
+      - "§§PORT:8080"
     depends_on:
       - §§INSTANCE-youtrack-data
     volumes_from: 
